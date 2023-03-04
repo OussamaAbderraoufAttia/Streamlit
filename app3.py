@@ -7,6 +7,14 @@ data = np.random.standard_normal(size=1000) #create a normal distribution using 
 data = pd.DataFrame(data, columns=['x']) #create a dataframe with the data
 st.dataframe(data)
 
+#Add a subheader
+st.subheader('GDG Qaada Data Science Meetup')
+
+#Add a description
+st.write('This is a description of the data')
+#see? streamlit is easy to use!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 fig, ax = plt.subplots()
 #Ask the user to input the number of bins
 nb_bins = st.number_input('Number of bins', min_value=1, max_value=100, value=20)
