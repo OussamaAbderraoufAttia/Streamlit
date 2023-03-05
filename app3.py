@@ -11,7 +11,7 @@ st.dataframe(data)
 st.subheader('GDG Qaada Data Science Meetup')
 
 #Add a description
-st.write('This app allows to understad how to use streamlit to create a simple app and how to visualise data in a simple way and you don''t have to have a lot of knowledge!')
+st.write('This app allows you to understad how to use streamlit to create a simple app and how to visualise data in a simple way and you don''t have to have a lot of knowledge!')
 #see? streamlit is easy to use!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
