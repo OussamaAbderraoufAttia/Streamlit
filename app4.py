@@ -33,3 +33,5 @@ st.altair_chart(c, use_container_width=True)
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv')
 #Create a map
 st.map(df)
+
+
